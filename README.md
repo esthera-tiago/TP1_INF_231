@@ -30,9 +30,9 @@ Chaque programme est autonome et documenté afin de faciliter la compréhension 
 
 ## ⚙️ Compilation & Exécution
 
-### Compilation manuelle
+### 1️⃣ Compilation manuelle
 Chaque programme est indépendant. Pour compiler :  
 
 ```bash
-gcc exerciceX.c -o exerciceX
-./exerciceX
+gcc matrices/somme_matrice.c -o somme_matrice
+./somme_matrice
