@@ -51,10 +51,14 @@ make build
 make clean
 ```
 
-- Compiler un programme spécifique (exemple : somme_matrice) :
+### 3 Exécution
+Chaque ficher executable est genere dans ./bin:
+
+- Exécute un programme spécifique (exemple : somme_matrice) :
 ```bash
 ./bin/somme_matrice
 ```
+
 ---
 
 
