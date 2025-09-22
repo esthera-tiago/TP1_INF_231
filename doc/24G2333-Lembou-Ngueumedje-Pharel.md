@@ -4,8 +4,7 @@
 **Groupe :** INF231_EC2  
 **Exercices attribués :**  
 - Recherche séquentielle dans un tableau (`recherche_seq.c`)  
-- Vérification si un tableau est trié (`test_tri.c`)  
-**Deadline :** 23/09/2025  
+- Vérification si un tableau est trié (`test_tri.c`)   
 
 ---
 
