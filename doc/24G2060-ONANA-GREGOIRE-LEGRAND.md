@@ -33,7 +33,7 @@ Renverser l’ordre des éléments d’un tableau d’entiers.
 
 ---
 
-## 3) Code source (fichiers : `median.c` et `reverse.c`)
+## 3) Code source (fichiers : `mediane.c` et `inversion.c`)
 
 ### Fichier : `mediane.c`
 
