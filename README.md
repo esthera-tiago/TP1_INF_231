@@ -36,10 +36,12 @@ Chaque programme est indépendant. Pour compiler :
 ```bash
 gcc matrices/somme_matrice.c -o somme_matrice
 ./somme_matrice
-
+```
 ---
 
-📖 Organisation du dépôt
+## 📖 Organisation du dépôt
+
+```bash
 
 .
 ├── README.md
@@ -57,9 +59,10 @@ gcc matrices/somme_matrice.c -o somme_matrice
 │   ├── produit_vectoriel.c
 │   ├── produit_vecteur_matrice.c
 
+```
 ---
 
-👤 Auteurs / Collaborateurs
+## 👤 Auteurs / Collaborateurs
 
 
 @psychoprog_237
