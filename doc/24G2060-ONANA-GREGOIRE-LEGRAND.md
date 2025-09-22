@@ -1,9 +1,7 @@
 # Cahier de suivi individuel — INF231 (TP)  
 **Étudiant :** ONANA GREGOIRE LEGRAND  
 **Matricule :** 24G2060  
-**Groupe :** INF231_EC2  
 **Exercice attribué :** Médiane dans un tableau et Inverser un tableau  
-**Deadline :** 23/09/2025
 
 ---
 
