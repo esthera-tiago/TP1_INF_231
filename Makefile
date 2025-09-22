@@ -13,6 +13,34 @@ build:
 	gcc ./operations/produit_vect_matrice.c -o ./bin/produit_vect_matrice
 	gcc ./operations/produit_vectoriel.c -o ./bin/produit_vectoriel
 
+run-produit_matrice:
+	./bin/produit_matrice
+
+run-somme_matrice:
+	./bin/somme_matrice
+
+run-inversion:
+	./bin/inversion
+
+run-somme_matrice:
+	./bin/somme_matrice
+
+run-recherche_seq:
+	./bin/recherche_seq
+
+run-mediane:
+	./bin/mediane
+
+run-multiplication_addition:
+	./bin/multiplication_addition
+
+run-produit_vect_matrice:
+	./bin/produit_vect_matrice
+
+run-produit_vectoriel:
+	./bin/produit_vectoriel
+
+
 # Nettoyage des exécutables
 clean:
 	rm ./bin/*

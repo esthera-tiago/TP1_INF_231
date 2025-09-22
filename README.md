@@ -34,7 +34,7 @@ Chaque programme est autonome et documenté afin de faciliter la compréhension 
 Chaque programme est indépendant. Pour compiler, example :  
 
 ```bash
-gcc matrices/somme_matrice.c -o bin/somme_matrice
+gcc matrices/somme_matrice.c -o somme_matrice
 ./somme_matrice
 ```
 
@@ -51,12 +51,12 @@ make build
 make clean
 ```
 
-### 3️⃣ Exécution
-Chaque ficher executable est genere dans ./bin:
+### 3️⃣ Exécution automatique (exemples)
+les ficher compiler de maniere automatique sont genere dans ./bin:
 
 - Exécute un programme spécifique (exemple : somme_matrice) :
 ```bash
-./bin/somme_matrice
+make run-somme_matrice
 ```
 
 ---
