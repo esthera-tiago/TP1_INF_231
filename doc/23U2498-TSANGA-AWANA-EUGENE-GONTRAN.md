@@ -1,9 +1,7 @@
 # Cahier de suivi individuel — INF231 (TP)  
-**Étudiant :** TSANGA AWANA EUGÈNE GONTRAN  
-**Matricule :** 20Xxxxxx  
-**Groupe :** INF231_EC2  
+**Étudiant :** TSANGA AWANA EUGENE GONTRAN  
+**Matricule :** 323U2498
 **Exercice attribué :** Multiplication `a × b` (avec additions répétées)  
-**Deadline :** 23/09/2025
 
 ---
 
@@ -25,7 +23,7 @@ Le programme doit vérifier que `a` et `b` sont strictement positifs, afficher l
 
 ---
 
-## 3) Code source (fichier : `multiply_add.c`)
+## 3) Code source (fichier : `multiplication_addition.c`)
 
 ```c
 #include <stdio.h>
@@ -77,15 +75,3 @@ int main(void) {
     printf("\nRésultat : %u × %u = %lu\n", a, b, product);
     return 0;
 }
-
-# Compilation
-gcc -Wall -Wextra -O2 -o multiply_add multiply_add.c
-
-# Exécution
-./multiply_add
-
-# Exemple d'entrée:
-# Entrez a (entier > 0) : 5
-# Entrez b (entier > 0) : 3
-# Résultat : 5 × 3 = 15
-
