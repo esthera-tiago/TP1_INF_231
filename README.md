@@ -64,18 +64,10 @@ gcc matrices/somme_matrice.c -o somme_matrice
 
 ## 👤 Auteurs / Collaborateurs
 
-
-@psychoprog_237
-
-@user2
-
-@User3
-
-@User4
-
-@User5
-
-@User5
-
-
+- [@BerniceLhavy](https://github.com/BerniceLhavy)  
+- [@AutreUser1](https://github.com/AutreUser1)  
+- [@AutreUser2](https://github.com/AutreUser2)  
+- [@User4](https://github.com/User4)  
+- [@User5](https://github.com/User5)  
+- [@User6](https://github.com/User6)
 
