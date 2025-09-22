@@ -1,9 +1,7 @@
 # Cahier de suivi individuel — INF231 (TP)  
-**Étudiant :** TSANGA AWANA EUGÈNE GONTRAN  
-**Matricule :** 20Xxxxxx  
-**Groupe :** INF231_EC2  
+**Étudiant :** TSANGA AWANA EUGENE GONTRAN  
+**Matricule :** 323U2498
 **Exercice attribué :** Multiplication `a × b` (avec additions répétées)  
-**Deadline :** 23/09/2025
 
 ---
 
