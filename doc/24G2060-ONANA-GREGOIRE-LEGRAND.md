@@ -35,7 +35,7 @@ Renverser l’ordre des éléments d’un tableau d’entiers.
 
 ## 3) Code source (fichiers : `median.c` et `reverse.c`)
 
-### Fichier : `median.c`
+### Fichier : `mediane.c`
 
 ```
 #include <stdio.h>
@@ -54,7 +54,7 @@ void trier(int tab[], int n) {
     }
 }
 
-float calculerMedian(int tab[], int n) {
+float calculerMediane(int tab[], int n) {
     trier(tab, n);
     if (n % 2 == 0)
         return (tab[n / 2 - 1] + tab[n / 2]) / 2.0;
@@ -72,13 +72,13 @@ int main() {
         printf("Élément %d : ", i + 1);
         scanf("%d", &tab[i]);
     }
-    float mediane = calculerMedian(tab, n);
+    float mediane = calculerMediane(tab, n);
     printf("La médiane est : %.2f\n", mediane);
     return 0;
 }
 ```
 
-### Fichier : `reverse.c`
+### Fichier : `inversion.c`
 
 ```
 #include <stdio.h>
@@ -117,16 +117,16 @@ int main() {
 Pour compiler les programmes, utilisez les commandes suivantes :
 
 ```bash
-gcc -Wall -Wextra -O2 -o median median.c
-gcc -Wall -Wextra -O2 -o reverse reverse.c
+gcc -Wall -Wextra -O2 -o mediane mediane.c
+gcc -Wall -Wextra -O2 -o inversion inversion.c
 ```
 
 ## Exécution
 Pour exécuter les programmes, utilisez les commandes suivantes :
 
 ```bash
-./median
-./reverse
+./mediane
+./inversion
 ```
 
 ## Exemple d'entrée pour la médiane:
