@@ -31,7 +31,7 @@ Chaque programme est autonome et documenté afin de faciliter la compréhension 
 ## ⚙️ Compilation & Exécution
 
 ### 1️⃣ Compilation manuelle
-Chaque programme est indépendant. Pour compiler :  
+Chaque programme est indépendant. Pour compiler, example :  
 
 ```bash
 gcc matrices/somme_matrice.c -o somme_matrice
@@ -46,6 +46,8 @@ gcc matrices/somme_matrice.c -o somme_matrice
 .
 ├── README.md
 ├── Makefile
+├── doc/
+│   ├── MatriculePrenom-NOM.md
 ├── matrices/
 │   ├── somme_matrice.c
 │   ├── produit_matrice.c
