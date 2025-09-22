@@ -69,3 +69,5 @@ gcc matrices/somme_matrice.c -o somme_matrice
 - [@psycho237-prog](https://github.com/psycho237-prog)  
 - [@TSANGA-AWANA](https://github.com/TSANGA-AWANA)  
 - [@Wills007-deep](https://github.com/Wills007-deep)  
+-
+[@esthera-tiago](https://github.com/esthera-tiago)
