@@ -1,3 +1,30 @@
+#Cahier de suivi individuel - TP INF 321
+> 
+> 
+> ##Informations personnel
+> 
+> -**Nom:** TIETCHAK TIAGO ESTHERA JOANNA
+> -**Matricule:** 24F2810
+> -**Exercice attribué :** Produit vecteur-matrice
+> 
+> ##1.** Objectif de l'exercice** 
+> 
+> Réaliser le produit d'un vecteur (matrice ligne) par une matrice. Si le vecteur a pour taille `n` et la matrice a pour dimensions `n × m`, le résultat sera un vecteur de taille `m`.
+> 
+> ##2.** Algorithme (describtion)**
+> 
+> - Lire la taille (dimension) du vecteur n
+> - Lire les n éléments du vecteur
+> - Lire la dimension de la matrice n x m:
+>       => verifier la compatipilité que les nombres de lignes de la matrice est égale a la taille du vecteur (n)
+> - Afficher le vecteur
+> - Afficher la matrice
+> - Calculez le produit vecteur matrice
+> - Afficher le vecteur résultat de taille m
+
+##3.** Code source**
+
+```c
 #include <stdio.h>
 #define TMax 50
 
@@ -109,3 +136,53 @@ int main(){
     printf("\n");
     return 0;
 }
+
+...
+
+##4.**Compilation**
+> 
+> ###Pour compiler le programme, utilisez la commande:
+> gcc produit_vect_matrice.c -o produit_vect_matrice
+> 
+> ##5.**Exécutions**
+> 
+> ###Pour exécuter le programme, utilisez la commande:
+> ./produit_vect_matrice
+> 
+> ##6.**Tests**
+> 
+> __________________________ Bienvenue sur notre logiciel! __________________________
+
+ Calculez le produit vecteur matrice
+
+Entrer la dimension du vecteur: 5
+
+Entrer les valeurs du verteurs: 
+
+ Vecteur [1]: 1
+
+ Vecteur [2]: 2
+
+ Vecteur [3]: 3
+
+ Vecteur [4]: 4
+
+ Vecteur [5]: 54
+
+Entrer les dimension de la matrice.
+ 
+Le nombre de lignes de la matrice doit correspondre à la dimension 5 du vecteur
+
+ Nombres de lignes: 2
+ Entrer invalide! Veuillez réessayer: 5
+
+ Nombres de colonnes: 2
+
+Entrer les elements de la matrice de dimension 5 x 2: 
+
+ Ligne 1: 
+ Colonne 1: 2
+
+ Colonne 2: 2
+...
+
