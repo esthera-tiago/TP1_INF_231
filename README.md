@@ -36,3 +36,43 @@ Chaque programme est indépendant. Pour compiler :
 ```bash
 gcc matrices/somme_matrice.c -o somme_matrice
 ./somme_matrice
+
+---
+
+📖 Organisation du dépôt
+
+.
+├── README.md
+├── Makefile
+├── matrices/
+│   ├── somme_matrice.c
+│   ├── produit_matrice.c
+├── tableaux/
+│   ├── recherche_seq.c
+│   ├── test_tri.c
+│   ├── mediane.c
+│   ├── inversion.c
+├── operations/
+│   ├── multiplication_addition.c
+│   ├── produit_vectoriel.c
+│   ├── produit_vecteur_matrice.c
+
+---
+
+👤 Auteurs / Collaborateurs
+
+
+@psychoprog_237
+
+@user2
+
+@User3
+
+@User4
+
+@User5
+
+@User5
+
+
+
