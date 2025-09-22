@@ -37,7 +37,7 @@ Renverser l’ordre des éléments d’un tableau d’entiers.
 
 ### Fichier : `mediane.c`
 
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -80,7 +80,7 @@ int main() {
 
 ### Fichier : `inversion.c`
 
-```
+```c
 #include <stdio.h>
 
 void inverser(int tab[], int n) {
