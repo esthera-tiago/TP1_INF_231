@@ -34,10 +34,29 @@ Chaque programme est autonome et documenté afin de faciliter la compréhension 
 Chaque programme est indépendant. Pour compiler, example :  
 
 ```bash
-gcc matrices/somme_matrice.c -o somme_matrice
+gcc matrices/somme_matrice.c -o bin/somme_matrice
 ./somme_matrice
 ```
+
+### 2️⃣ Compilation automatique (Makefile)
+Le projet est équipé d’un Makefile pour simplifier la compilation.
+
+- Compiler tous les programmes :
+```bash
+make build
+```
+
+- Nettoyer les exécutables générés :
+```bash
+make clean
+```
+
+- Compiler un programme spécifique (exemple : somme_matrice) :
+```bash
+./bin/somme_matrice
+```
 ---
+
 
 ## 📖 Organisation du dépôt
 
