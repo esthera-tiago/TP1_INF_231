@@ -51,7 +51,7 @@ make build
 make clean
 ```
 
-### 3 Exécution
+### 3️⃣ Exécution
 Chaque ficher executable est genere dans ./bin:
 
 - Exécute un programme spécifique (exemple : somme_matrice) :
