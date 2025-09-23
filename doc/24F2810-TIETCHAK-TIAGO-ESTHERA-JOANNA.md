@@ -3,9 +3,9 @@
 > 
 > ## Informations personnel
 > 
-> -#**Nom:** TIETCHAK TIAGO ESTHERA JOANNA
-> -#**Matricule:** 24F2810
-> -#**Exercice attribué :** Produit vecteur-matrice
+> #-**Nom:** TIETCHAK TIAGO ESTHERA JOANNA
+> #-**Matricule:** 24F2810
+> #-**Exercice attribué :** Produit vecteur-matrice
 > ---
 > 
 > ## 1. **Objectif de l'exercice** 
