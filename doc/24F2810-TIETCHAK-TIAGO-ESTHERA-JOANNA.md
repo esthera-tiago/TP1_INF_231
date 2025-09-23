@@ -1,33 +1,33 @@
 # Cahier de suivi individuel - TP INF 321
-> ---
-> 
-> ## Informations personnel
-> 
-> #-**Nom:** TIETCHAK TIAGO ESTHERA JOANNA
-> #-**Matricule:** 24F2810
-> #-**Exercice attribué :** Produit vecteur-matrice
-> ---
-> 
-> ## 1. **Objectif de l'exercice** 
-> 
-> Réaliser le produit d'un vecteur (matrice ligne) par une matrice. Si le vecteur a pour taille `n` et la matrice a pour dimensions `n × m`, le résultat sera un vecteur de taille `m`.
->
-> ---
-> 
-> ## 2. **Algorithme (describtion)**
-> 
-> - Lire la taille (dimension) du vecteur n
-> - Lire les n éléments du vecteur
-> - Lire la dimension de la matrice n x m:
->       => verifier la compatipilité que les nombres de lignes de la matrice est égale a la taille du vecteur (n)
-> - Afficher le vecteur
-> - Afficher la matrice
-> - Calculez le produit vecteur matrice
-> - Afficher le vecteur résultat de taille m
->
-> ---
+---
+ 
+## Informations personnel
+ 
+**Nom:** TIETCHAK TIAGO ESTHERA JOANNA
+**Matricule:** 24F2810
+**Exercice attribué :** Produit vecteur-matrice
+---
+ 
+## 1. **Objectif de l'exercice** 
+ 
+Réaliser le produit d'un vecteur (matrice ligne) par une matrice. Si le vecteur a pour taille `n` et la matrice a pour dimensions `n × m`, le résultat sera un vecteur de taille `m`.
 
-> ## 3. **Code source**
+---
+
+## 2. **Algorithme (describtion)**
+
+- Lire la taille (dimension) du vecteur n
+- Lire les n éléments du vecteur
+- Lire la dimension de la matrice n x m:
+      => verifier la compatipilité que les nombres de lignes de la matrice est égale a la taille du vecteur (n)
+- Afficher le vecteur
+- Afficher la matrice
+- Calculez le produit vecteur matrice
+- Afficher le vecteur résultat de taille m
+
+---
+
+## 3. **Code source**
 
 ```c
 #include <stdio.h>
@@ -145,73 +145,73 @@ int main(){
 ---
 
 ## 4. **Compilation**
-> 
-> ### Pour compiler le programme, utilisez la commande:
-> gcc produit_vect_matrice.c -o produit_vect_matrice
->
-> ---
-> 
-> ## 5. **Exécutions**
-> 
-> ### Pour exécuter le programme, utilisez la commande:
-> ./produit_vect_matrice
->
-> ---
-> 
-> ## 6. **Tests**
-> 
-> __________________________ Bienvenue sur notre logiciel! __________________________
 
- Calculez le produit vecteur matrice
+### Pour compiler le programme, utilisez la commande:
+gcc produit_vect_matrice.c -o produit_vect_matrice
 
-Entrer la dimension du vecteur: 3
+---
 
-Entrer les valeurs du verteurs: 
+## 5. **Exécutions**
 
- Vecteur [1]: 2
+ ### Pour exécuter le programme, utilisez la commande:
+./produit_vect_matrice
 
- Vecteur [2]: 3
+---
 
- Vecteur [3]: 4
+## 6. **Tests**
 
-Entrer les dimension de la matrice.
+__________________________ Bienvenue sur notre logiciel! __________________________
+
+> Calculez le produit vecteur matrice
+
+> Entrer la dimension du vecteur: 3
+
+> Entrer les valeurs du verteurs: 
+
+> Vecteur [1]: 2
+
+> Vecteur [2]: 3
+
+> Vecteur [3]: 4
+
+> Entrer les dimension de la matrice.
  
-Le nombre de lignes de la matrice doit correspondre à la dimension 3 du vecteur
+> Le nombre de lignes de la matrice doit correspondre à la dimension 3 du vecteur
 
- Nombres de lignes: 5
- Entrer invalide! Veuillez réessayer: 3
+> Nombres de lignes: 5
+> Entrer invalide! Veuillez réessayer: 3
 
- Nombres de colonnes: 2
+> Nombres de colonnes: 2
 
-Entrer les elements de la matrice de dimension 3 x 2: 
+> Entrer les elements de la matrice de dimension 3 x 2: 
 
- Ligne 1: 
- Colonne 1: 2
+> Ligne 1: 
+> Colonne 1: 2
 
- Colonne 2: 2
+> Colonne 2: 2
 
- Ligne 2: 
- Colonne 1: 3
+> Ligne 2: 
+> Colonne 1: 3
 
- Colonne 2: 1
+> Colonne 2: 1
 
- Ligne 3: 
- Colonne 1: 3
+> Ligne 3: 
+> Colonne 1: 3
 
- Colonne 2: 1
+> Colonne 2: 1
 
-Initialisation de la matrice réussi!
+> Initialisation de la matrice réussi!
 
-Le produit du vecteur,
+> Le produit du vecteur,
 
- V = [ 2 3 4 ]
+> V = [ 2 3 4 ]
 
-Et de la matrice, M = 
-[ 2 2  ]
-[ 3 1  ]
-[ 3 1  ]
+> Et de la matrice, M = 
+> [ 2 2  ]
+> [ 3 1  ]
+> [ 3 1  ]
 
-A pour resultat: 
-[ 25 11 ]
+> A pour resultat: 
+>     [ 25 11 ]
 > 
 
