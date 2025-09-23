@@ -2,9 +2,9 @@
  
 ## Informations personnel
  
-**Nom :** TIETCHAK TIAGO ESTHERA JOANNA
-**Matricule :** 24F2810
-**Exercice attribué :** Produit vecteur-matrice
+- **Nom :** TIETCHAK TIAGO ESTHERA JOANNA
+- **Matricule :** 24F2810
+- **Exercice attribué :** Produit vecteur-matrice
 ---
  
 ## 1. **Objectif de l'exercice** 
@@ -18,7 +18,7 @@ Réaliser le produit d'un vecteur (matrice ligne) par une matrice. Si le vecteur
 - Lire la taille (dimension) du vecteur n
 - Lire les n éléments du vecteur
 - Lire la dimension de la matrice n x m:
-      => verifier la compatipilité que les nombres de lignes de la matrice est égale a la taille du vecteur (n)
+ >     => verifier la compatipilité que les nombres de lignes de la matrice est égale a la taille du vecteur (n)
 - Afficher le vecteur
 - Afficher la matrice
 - Calculez le produit vecteur matrice
