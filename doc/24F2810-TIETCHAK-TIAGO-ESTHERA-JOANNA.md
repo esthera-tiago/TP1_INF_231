@@ -3,18 +3,18 @@
 > 
 > ## Informations personnel
 > 
-> -**Nom:** TIETCHAK TIAGO ESTHERA JOANNA
-> -**Matricule:** 24F2810
-> -**Exercice attribué :** Produit vecteur-matrice
+> -#**Nom:** TIETCHAK TIAGO ESTHERA JOANNA
+> -#**Matricule:** 24F2810
+> -#**Exercice attribué :** Produit vecteur-matrice
 > ---
 > 
-> ## 1.** Objectif de l'exercice** 
+> ## 1. **Objectif de l'exercice** 
 > 
 > Réaliser le produit d'un vecteur (matrice ligne) par une matrice. Si le vecteur a pour taille `n` et la matrice a pour dimensions `n × m`, le résultat sera un vecteur de taille `m`.
 >
 > ---
 > 
-> ## 2.** Algorithme (describtion)**
+> ## 2. **Algorithme (describtion)**
 > 
 > - Lire la taille (dimension) du vecteur n
 > - Lire les n éléments du vecteur
@@ -27,7 +27,7 @@
 >
 > ---
 
-> ## 3.** Code source**
+> ## 3. **Code source**
 
 ```c
 #include <stdio.h>
@@ -144,21 +144,21 @@ int main(){
 ```
 ---
 
-## 4.**Compilation**
+## 4. **Compilation**
 > 
 > ### Pour compiler le programme, utilisez la commande:
 > gcc produit_vect_matrice.c -o produit_vect_matrice
 >
 > ---
 > 
-> ## 5.**Exécutions**
+> ## 5. **Exécutions**
 > 
 > ### Pour exécuter le programme, utilisez la commande:
 > ./produit_vect_matrice
 >
 > ---
 > 
-> ## 6.**Tests**
+> ## 6. **Tests**
 > 
 > __________________________ Bienvenue sur notre logiciel! __________________________
 
