@@ -1,10 +1,9 @@
 # Cahier de suivi individuel - TP INF 321
----
  
 ## Informations personnel
  
-**Nom:** TIETCHAK TIAGO ESTHERA JOANNA
-**Matricule:** 24F2810
+**Nom :** TIETCHAK TIAGO ESTHERA JOANNA
+**Matricule :** 24F2810
 **Exercice attribué :** Produit vecteur-matrice
 ---
  
