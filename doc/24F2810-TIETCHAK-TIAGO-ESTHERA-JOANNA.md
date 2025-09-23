@@ -139,6 +139,7 @@ int main(){
 
 ...
 
+```
 ##4.**Compilation**
 > 
 > ###Pour compiler le programme, utilisez la commande:
